@@ -1,0 +1,38 @@
+The first type of architecture is first thested on a toy dataset, that tries to determin the tweet sentiment on an airlines dataset.
+
+The first experiment is intedet to check if the overall architecture of the network is viable and able to learn text to label mappings.
+
+Params: 
+
+is_logits = False
+num_classes = 1
+merged = False
+
+is_rnn = True
+is_paralel = False
+
+#hyper parameters
+num_epochs = 20
+batch_size = 64
+embedding_size = 32
+seq_len = 36
+rnn_size = 128
+lstm_layers = 1
+learning_rate = 0.001
+keep_pr = 0.7
+save_dir = './save'
+
+Tweets dataset size: 14640
+Total unique word count: 30165
+			Feature Shapes:
+Train set: 		(11712, 36) 
+Validation set: 	(1464, 36) 
+Test set: 		(1464, 36)
+
+Val acc: 0.77769887
+Epoch: 19/20 Iteration: 3655 Train loss: 0.01125980
+Epoch: 19/20 Iteration: 3660 Train loss: 0.00677505
+--- 106.70341300964355 seconds ---
+
+Test accuracy: 0.813
+EXP_NO=1

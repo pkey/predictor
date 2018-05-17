@@ -1,0 +1,36 @@
+Params: 
+
+is_logits = False
+num_classes = 1
+merged = False
+latency=1
+
+is_rnn = True
+is_paralel = False
+
+#hyper parameters
+num_epochs = 10
+batch_size = 1000
+embedding_size = 32
+seq_len = 33
+rnn_size = 128
+lstm_layers = 3
+learning_rate = 0.001
+keep_pr = 0.5
+save_dir = './save'
+EXP_NO=3
+
+Tweets dataset size: 725356
+Total unique word count: 385526
+			Feature Shapes:
+Train set: 		(580284, 33) 
+Validation set: 	(72536, 33) 
+Test set: 		(72536, 33)
+
+
+Val acc: 0.49302781
+--- 2804.9091374874115 seconds ---
+
+Test accuracy: 0.502
+
+
