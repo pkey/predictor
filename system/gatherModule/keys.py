@@ -1,5 +1,0 @@
-APP_KEY = 'lW9ZXs6XCohHfe8aRYP6SLlle'
-APP_SECRET = 'WP0x1p0KE52nVi0R4F78p0AtaOxGT1sJBJ7WEaJdNREOA3qpmg'
-
-def keys():
-    return 0
